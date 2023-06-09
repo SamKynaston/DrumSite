@@ -1,0 +1,34 @@
+body {
+    background-color:var(--background-color);
+    color:var(--background-text-color);
+    margin: 0;
+}
+
+.buttons {
+    align-content: flex-end;
+    display:flex;
+    //gap: 5px;
+}
+
+.buttons button {
+    border-style: solid;
+    border-width: 0px 2px;
+    border-color: var(--border-color);
+
+    background-color:inherit;
+    color:var(--background-text-color);
+    flex-grow: 4;
+    margin-top: auto;
+    padding: 16px;
+    height:200px;
+}
+
+.buttons button:hover, .active {
+    background-color: var(--border-color) !important;
+}
+
+footer {
+    padding:16px;
+    background-color:var(--border-color);
+    text-align:center;
+}
